@@ -494,6 +494,7 @@ font-size: 45px;
   background: #ffffff;
   box-shadow: 0px 35px 25px rgba(9, 33, 65, 0.04);
   padding: 50px;
+  
 }
 
 .car_item h4 {
@@ -526,3 +527,61 @@ font-size: 45px;
   font-size: 18px;
   color: #1b3764;
 }
+
+/* -------------------------- */
+/* reders_opition */
+#reders_opinion{
+  padding-top: 80px;
+}
+
+#reders_opinion .row {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.row .item {
+  width: 33%;
+}
+.middle_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-1 {
+  width: 370px;
+  height: 309px;
+  background-color: #1b3764;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.item h2 {
+  width: 326px;
+  height: 162px;
+
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  color: #1b3764;
+}
+
+.item p {
+  font-weight: 400;
+font-size: 19px;
+line-height: 180%;
+  color: #969AA0;
+}
+.card-1 p {
+  color: #f4f8ff;
+}
+
+.card-1 h3 {
+  color: #f4f8ff;
+}
+.card-1 h5 {
+  color: #f4f8ff;
+}
+
