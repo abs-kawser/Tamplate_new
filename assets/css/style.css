@@ -239,13 +239,7 @@ header .nav_content .cart ul li a span {
 }
 
 
-/* .ratings_body ul li::before {
-  content: "•"; 
-  color: yellow;
-   width: 16px;
-   display: block;
-  margin-left: 0;
-} */
+
 
   .ratings_body ul li{
     /* list-style: circle; */
@@ -310,7 +304,6 @@ header .nav_content .cart ul li a span {
 #custom {
   padding: 20px;
   text-align: center;
-  /* font-family: "Cardo"; */
   font-size: 25px;
   color: #1b3764;
 }
