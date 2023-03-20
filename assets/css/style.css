@@ -644,6 +644,7 @@ text-align: center;
 
 #reders_opinion{
   padding-top: 80px;
+
 }
 .grid-container {
     display: grid;
@@ -715,16 +716,54 @@ margin-top: 30px;
 
   .item_two .common_cart{
     height: 200px;
-    /* background-color:red; */
     background-color: #1b3764;
-
-
 
   }
 
 
+.personImage_name{
+  /* border: 1px solid aqua; */
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-left: 31px;
+  padding: 12px;
+}
 
+.personImage_name .mImage img{
+  width: 60px;
+  height: 60px;
+  clip-path: circle();
+}
+.personName{
+  font-weight: 600;
+font-size: 20px;
+color: #FFFFFF;
+}
 
+.common_cart_text{
+  text-align: center;
+  letter-spacing: 1px;
+  width: 308px;
+  text-align: left;
+  word-spacing: 2px;
+  line-height: 23px;
+  margin-left: 27px;
+}
+
+.common_cart_text h4{
+  font-weight: 700;
+  font-size: 22px;
+  color: #F4F8FF;
+   
+}
+
+.common_cart_text p{
+  font-weight: 200;
+font-size: 15px;
+color: #B4C7E7;
+ margin-top: 10px;
+}
 
 /*  */
 
@@ -781,6 +820,12 @@ article {
   
   .article-body {
     padding: 24px;
+  }
+
+  .ancor_link{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
   }
   
   article a {
