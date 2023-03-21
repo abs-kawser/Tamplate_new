@@ -642,6 +642,7 @@ text-align: center;
 .grid-container {
     display: grid;
     grid-template-columns: 418px 1fr;
+
     grid-gap:111px;
   }
   
@@ -960,7 +961,7 @@ padding-top: 80px;
 }
 .row{
 	display: flex;
-	flex-wrap: wrap;
+	flex-wrap: wrap-reverse;
 }
 ul{
 	list-style: none;
@@ -971,6 +972,7 @@ ul{
 }
 .footer-col{
    width: 21%;
+   /* width: 300px; */
    padding: 0 15px;
 }
 .footer-col h4{
@@ -1025,19 +1027,8 @@ ul{
 	background-color: #ffffff;
 }
 
-/*responsive*/
-@media(max-width: 767px){
-  .footer-col{
-    width: 50%;
-    margin-bottom: 30px;
-}
-}
-@media(max-width: 574px){
-  .footer-col{
-    width: 100%;
-}
-}
 #address_details p{
-   color: #f4f8ff;
-   letter-spacing: -0.01em;
+  color: #f4f8ff;
+  letter-spacing: -0.01em;
+  line-height: 30px;
 }

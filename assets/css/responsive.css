@@ -1,0 +1,63 @@
+
+@media (max-width: 767px) {
+  
+    .container{
+        border: 5px solid blueviolet;
+        width: 767px;
+    }
+
+}
+
+@media (max-width: 576px) {
+  
+    .container{
+        border: 5px solid #564156;
+        width: 767px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer part */
+@media(max-width: 767px){
+    .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 574px){
+    .footer-col{
+      width: 100%;
+  }
+  }
+  
