@@ -90,7 +90,10 @@ header .nav_content {
   flex-wrap: wrap;
   gap: 10px;
 }
-
+header #pages{
+  /* text-align: center; */
+  margin-left: 5px;
+}
 header .nav_content .logo {
   border: var(--border);
   display: flex;
@@ -468,7 +471,6 @@ font-size: 45px;
 
 .coffe_img {
   margin-top: 20px;
-  width: 80%;
 }
 
 
@@ -538,6 +540,11 @@ text-align: center;
   font-size: 45px;
   color: #1b3764;
 }
+
+#lern_book_reading {
+  margin-top: 20px;
+}
+
 /*  */
 #chapter_part{
    margin-top: 80px;
@@ -585,8 +592,8 @@ text-align: center;
     display: flex;
     justify-content:flex-start;
     padding: 10px 0;
-    gap: 30%;
-    margin-left: 5%;
+    gap: 100px;
+    margin-left: 20px;
 }
 .pages_length h5{
     font-weight: 700;
