@@ -117,12 +117,12 @@ header .nav_content .s_link ul {
 }
 
 header .nav_content .s_link ul li {
+  
 }
 
 header .nav_content .s_link ul li a {
 }
-
-header .nav_content .s_link ul li a i {
+ header .nav_content .s_link ul li a i {
   margin-right: 8px;
   color: #ffffff;
   background-color: #ffffff;
@@ -211,7 +211,7 @@ header .nav_content .cart ul li a span {
   /* line-height: 3rem; */
 }
 
-.welcome {
+.banner_container .welcome {
   font-style: italic;
   margin-bottom: 8px;
 }
@@ -291,13 +291,15 @@ header .nav_content .cart ul li a span {
 
 /*----- my design ------*/
 .lamp_parent {
-  /* border: 1px solid rgb(124, 184, 192); */
+  /* border: 2px solid black; */
+
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid black; */
+
   position: relative;
   margin-top: 20px;
+  width: 422px;
 }
 
 .lamp_parent .lamp_image {
@@ -324,7 +326,7 @@ header .nav_content .cart ul li a span {
   background-color: #ffca42;
   position: absolute;
   top: -35px;
-  right: 70px;
+  right: -91px;
   padding: 15px;
 }
 
@@ -340,7 +342,7 @@ header .nav_content .cart ul li a span {
 }
 
 .lamp_parent .circle_text p {
-  font-size: 14px;
+  font-size: 12px;
   font-style: italic;
   line-height: 25px;
 }
@@ -356,7 +358,7 @@ header .nav_content .cart ul li a span {
   width: 186px;
   height: 100px;
   top: 170px;
-  right: 200px;
+  right: 11px;
   text-align: center;
 }
 
@@ -460,7 +462,7 @@ header .nav_content .cart ul li a span {
 
 .grid_container_books {
   display: grid;
-  grid-template-columns: 2fr 2fr;
+  grid-template-columns: 1fr 1fr;
   gap: 30px;
   /* border: 1px solid blue; */
 }
@@ -477,8 +479,7 @@ header .nav_content .cart ul li a span {
   width: 280px;
 }
 
-
-.atomic_part{
+.atomic_part {
   padding: 10px 5px;
 }
 .atomic_part .atomic_part_text {
@@ -498,7 +499,7 @@ header .nav_content .cart ul li a span {
   font-size: 19px;
   line-height: 30px;
   letter-spacing: -0.01em;
-  color: #969AA0;
+  color: #969aa0;
 }
 
 .atomic_part .atomic_pages_length {
@@ -508,28 +509,26 @@ header .nav_content .cart ul li a span {
   margin-top: 15px;
 }
 
-.atomic_part .atomic_pages_length h5{
+.atomic_part .atomic_pages_length h5 {
   font-weight: 700;
-font-size: 24px;
-color: #1B3764;
+  font-size: 24px;
+  color: #1b3764;
 }
 
-.atomic_btn{
- margin-top: 25px;
+.atomic_btn {
+  margin-top: 25px;
 }
 
 .grid_container_books .grid-item-two {
   display: grid;
-  grid-template-columns: 1fr 1fr  ;
+  grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
 
 /* item two */
-.grid-item-two  .item_one_img img{
+.grid-item-two .item_one_img img {
   width: 280px;
 }
-
-
 
 /*abot author */
 #about_author {
@@ -757,7 +756,6 @@ color: #1B3764;
 
 .car_item {
   width: 600px;
-  height: 200px;
   margin: auto;
   margin-left: 20px;
   border-radius: 10px;
@@ -811,7 +809,6 @@ color: #1B3764;
 
 .sort_description {
   width: 434px;
-  height: 159px;
   margin-left: 450px;
   margin-top: 79px;
   margin-bottom: 10px;
@@ -891,7 +888,6 @@ color: #1B3764;
 }
 
 .item_one {
-  /* height:20px; */
 }
 
 .item_two {
