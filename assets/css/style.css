@@ -117,12 +117,11 @@ header .nav_content .s_link ul {
 }
 
 header .nav_content .s_link ul li {
-  
 }
 
 header .nav_content .s_link ul li a {
 }
- header .nav_content .s_link ul li a i {
+header .nav_content .s_link ul li a i {
   margin-right: 8px;
   color: #ffffff;
   background-color: #ffffff;
@@ -260,8 +259,12 @@ header .nav_content .cart ul li a span {
 .yello_backGround {
   /* background: #FFCA42; */
   /* background-size: 50%; */
-  box-shadow: inset 0px -35px 0px 0px #ffca42;
+  /* box-shadow: inset 0px -35px 0px 0px #ffca42; */
   margin-bottom: 5px;
+
+  background: linear-gradient(to top, #1c87c9 50%, #113155 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .book_container_text h4 {
@@ -293,9 +296,9 @@ header .nav_content .cart ul li a span {
 .lamp_parent {
   /* border: 2px solid black; */
 
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 
   position: relative;
   margin-top: 20px;
@@ -1058,8 +1061,6 @@ article:has(:hover, :focus) {
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: 24px;
 }
-
-
 
 .sr-only:not(:focus):not(:active) {
   clip: rect(0 0 0 0);
