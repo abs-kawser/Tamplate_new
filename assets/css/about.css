@@ -3,7 +3,6 @@
   --border: 1px solid red;
 }
 
-
 body {
   margin: 0;
 }
@@ -79,7 +78,6 @@ i {
   box-sizing: border-box;
   margin: auto;
 }
-
 
 header {
   background-color: var(--brand_blue);
@@ -166,7 +164,7 @@ header .nav_content .cart ul li {
 
 header .nav_content .cart ul li a.order_btn {
   display: inline-block;
-  background-color: orangered;
+  background-color: #ffca42;
   padding: 10px 15px;
 }
 
@@ -184,4 +182,177 @@ header .nav_content .cart ul li a span {
   font-size: 10px;
   right: 0;
   color: rgb(14, 4, 0);
+}
+
+#Author_banner {
+  background-color: #1b3764;
+  margin: auto;
+}
+
+.banner_content {
+  border: 1px solid blue;
+  width: 630px;
+  margin: auto;
+  padding: 50px;
+  text-align: center;
+}
+
+.banner_content h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+#divider_yellow {
+  width: 40px;
+  color: #ffca42;
+  margin: auto;
+}
+
+.banner_content p {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  color: #b4c7e7;
+  margin-top: 20px;
+}
+
+/* author about  */
+#author_about {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.author_image {
+  border: 1px solid darkblue;
+}
+
+.author_image img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 1259px;
+}
+
+.author_content {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-around;
+  margin-top: 20px;
+  /* gap: 30px; */
+  /* box-sizing: border-box;      */
+}
+
+.author_detals {
+  /* border: 1px solid navy; */
+  /* margin-top: 20px; */
+  padding: 28px;
+  width: 520px;
+  background: #ffffff;
+  filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+
+}
+
+.author_detals ul li {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 52px;
+  color: #1b3764;
+  margin-left: 20px;
+}
+
+.author_title {
+  border: 1px solid hotpink;
+  /* margin-top: 20px; */
+  /* margin-left: 600px; */
+  width: 600px;
+}
+
+.author_title h1 {
+  font-weight: 700;
+  font-size: 45px;
+  color: #1b3764;
+}
+
+.author_title p {
+  font-weight: 400;
+  font-size: 19px;
+  color: #969aa0;
+  line-height: 34px;
+  margin-top: 15px;
+}
+
+.btn {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 18px 38px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+/* --------- */
+#author_history {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.author_history_content {
+  display: flex;
+}
+
+.author_history_header {
+  margin: 10px;
+}
+
+.author_history_header h2 {
+  font-weight: 700;
+  font-size: 45px;
+  color: #1b3764;
+}
+
+.author_history_header p {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  letter-spacing: -0.01em;
+  color: #969aa0;
+  margin-top: 20px;
+}
+
+.author_history_point {
+  display: flex;
+  margin: 58px;
+  gap: 35px;
+  /* padding: 25px; */
+}
+
+.point_number {
+  width: 65px;
+  height: 65px;
+  background: #ffca42;
+  margin: auto;
+  text-align: center; /* centers the text horizontally */
+  line-height: 65px; /* centers the text vertically */
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.point_header h3 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #1b3764;
+}
+
+.point_header p {
+  font-weight: 400;
+  font-size: 19px;
+  color: #969aa0;
+  line-height: 180%;
+  /* or 34px */
+
+  letter-spacing: -0.01em;
 }
